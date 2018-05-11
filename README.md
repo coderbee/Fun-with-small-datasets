@@ -12,7 +12,6 @@ The first lesson was a deep dive into using Convolutional Neural Net (CNN) model
 
 ## Cricket vs baseball
 
-
 Cricket and baseball are two sports with similar ‘features’ so I tried to distinguish between them. In order to collect images for training and test, I did a Google Image search for the terms Cricket and Baseball respectively. I downloaded 20 images for each sport and split them into training (15 images) and test(5 images) sets. I was able to get a reasonable accuracy of 90% (9/10 test images correctly classified) with 15 training images. Here are some examples of the images being classified. A prediction score closer to 0 indicates a baseball image.
 
 ![Cricket vs Baseball](cricvsbaseball.jpeg)
@@ -23,7 +22,7 @@ After playing around with the model I saw that a learning rate of 0.1 gave good 
 
 It was possible to get 100% every now and then, by running the model several times and varying hyper-parameters. I’m not sure if 100% accuracy means much though since the number of test images is so low. Going ahead I’d like to try this with a larger number of valid images to see how the model generalizes.
 
-US dollar vs Canadian dollar
+## US dollar vs Canadian dollar
 
 I carried out the same experiments using dollar bills this time, using 7 images of US dollars and Canadian dollars each for training, and 5 images for testing respectively. This time the classifier was able to easily achieve 100% accuracy. Here are some example results- a prediction score closer to 0 means the dollar bill is Canadian.
 
